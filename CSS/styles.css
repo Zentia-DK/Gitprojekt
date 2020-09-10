@@ -6,6 +6,7 @@
 
 body {
     margin: 0; /* Ingen kanter i siden af browser */
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,4 +34,90 @@ img {
     display: block; /* Billeder er et element (laver linjeskift) */
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
+}
+
+.container{
+    margin-left: 750px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border-color: whitesmoke ;
+    border-style: solid;
+    border-width: 10px;
+    width: 600px;
+    height: 700px;
+    background-color: purple;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.container:hover{
+    background-color: darkred;
+}
+
+.div1{
+    margin: 60px;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 15px;
+    width: 450px;
+    height: 550px;
+    background-color: deepskyblue;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.div1:hover{
+    background-color: blueviolet;
+}
+.div2{
+    margin: 90px;
+    border-radius: 215px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 15px;
+    width: 250px;
+    height: 350px;
+    background-color: cadetblue ;
+    cursor: pointer;
+}
+
+img{
+    border-radius: 215px;
+    width: 250px;
+    height: 320px;
+    cursor: pointer;
+}
+.div2 {
+    position: relative;
+    margin: 90px;
+    border-radius: 215px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 15px;
+    width: 250px;
+    height: 350px;
+    background-color: cadetblue ;
+    cursor: pointer;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .10s ease;
+}
+
+.div2:hover .overlay {
+    opacity: 6;
 }
