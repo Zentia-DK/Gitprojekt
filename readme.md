@@ -14,6 +14,5 @@ Dette er et nyt opstartet projekt mellem elever.
 8. Commit og push
 9. Aflever et link til dit Github repository i afleveringsmappen herunder
 
-![Relaxe](pic.jpg)
 
 <a href="http://https://www.youtube.com/watch?v=HN-MXjDC5Hk&ab_channel=ProductivityMusic%2FEvanCarmichael"</a>
